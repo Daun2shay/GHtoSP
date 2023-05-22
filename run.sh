@@ -34,7 +34,7 @@ echo "Removing old files from onedrive folder"
 rm -rf /home/user/OneDrive/*
 # Move all files to the onedrive folder from the Github Download Folder
 echo "Moving files from github folder to onedrive folder"
-mv -f -u -v /home/user/Omahait/* /home/user/OneDrive/
+mv -f /home/user/Omahait/* /home/user/OneDrive/
 # Run OndeDrive sync
 echo "syncing to onedrive"
 onedrive --synchronize
